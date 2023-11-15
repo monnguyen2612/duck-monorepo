@@ -22,12 +22,12 @@ interface LayoutProps {
 
 export default function RootLayout({ children }: LayoutProps) {
   return (
-    <html className={inter.className} lang="en" style={{ width: '100%', margin: 0, padding: 0 }}>
+    <html className={inter.className} lang="en">
       <Head />
 
       <body className="bg-white text-gray-700 antialiased dark:bg-slate-900 dark:text-slate-50">
         <ThemeProvider>
-          <Header longText={metadata.title} shortText="CV" />
+          <Header longText={metadata.title} />
           <main>
             <Container className="mb-20 min-h-screen">{children}</Container>
           </main>

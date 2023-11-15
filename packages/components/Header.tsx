@@ -16,7 +16,7 @@ interface HeaderProps {
 export default function Header({
   className = '',
   shortText = 'Duck',
-  longText = "I'm Duc",
+  longText = "I'm Duck",
 }: HeaderProps) {
   return (
     <header className={cn('py-10', className)}>
