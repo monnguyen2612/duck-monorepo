@@ -1,3 +1,4 @@
+/* eslint-disable turbo/no-undeclared-env-vars -- no*/
 export const metadata = {
   title: 'Duke Resume',
   description: '',
@@ -5,7 +6,7 @@ export const metadata = {
 
 export default function Page() {
 
-  const cvURL = '/duck-monorepo/DukeCV.pdf';
+  const cvURL = `${process.env.NODE_ENV === 'production' ? '/duck-monorepo' : ''}/DukeCV-2023.pdf`;
 
   return (
     <div>
