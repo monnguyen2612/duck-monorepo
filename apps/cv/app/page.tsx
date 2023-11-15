@@ -15,10 +15,10 @@ export default function Page() {
         data="/DukeCV.pdf"
         type="application/pdf"
       >
-        <iframe
+        {/* <iframe
           src={pdfViewerURL}
           title="cv"
-        />
+        /> */}
       </object>
 
       <div className="flex flex-col items-center justify-center mt-10">

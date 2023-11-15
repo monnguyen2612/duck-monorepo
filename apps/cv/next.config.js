@@ -1,4 +1,11 @@
-module.exports = {
-  reactStrictMode: true,
-  transpilePackages: ["ui"],
-};
+/**
+ * @type {import('next').NextConfig}
+ */
+
+const nextConfig = {
+  basePath: '/duck-monorepo',
+  output: 'export',
+  distDir: 'dist',
+}
+ 
+module.exports = nextConfig

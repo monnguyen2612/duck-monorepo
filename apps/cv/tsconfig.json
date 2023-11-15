@@ -10,9 +10,10 @@
     "allowJs": true,
     "baseUrl": "../../",
     "paths": {
-      "@duck/*": ["packages/*"],
+      "@duck/*": [
+        "packages/*"
+      ]
     }
-    
   },
   "include": [
     "next-env.d.ts",
@@ -27,6 +28,7 @@
     "postcss.config.js",
     "app",
     "./components",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "dist/types/**/*.ts"
   ]
 }
