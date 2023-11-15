@@ -4,14 +4,7 @@ import { ReactNode, ReactElement } from 'react'
 import { cn } from '@duck/libs/utils'
 import Container from './Container'
 import React from 'react'
-// import ThemeToggle from './ThemeToggle'
-// import Social from './Social'
-
-const BLOG_URL =
-  process.env.NEXT_PUBLIC_DUYET_BLOG_URL || 'https://blog.duyet.net'
-const INSIGHTS_URL =
-  process.env.NEXT_PUBLIC_DUYET_INSIGHTS_URL || 'https://insights.duyet.net'
-const CV_URL = process.env.NEXT_PUBLIC_DUYET_CV_URL || 'https://cv.duyet.net'
+import ThemeToggle from './ThemeToggle'
 
 function FooterLink({ href, children }: { href: string; children: ReactNode }) {
   const classes = cn(
@@ -84,6 +77,9 @@ export function FooterContent(): ReactElement {
               <p className="mt-4 text-xs text-gray-500 dark:text-[#888888]">
                 &copy; {new Date().getFullYear()} Duke | Software Engineer
               </p>
+            </div>
+            <div className="mt-5">
+              <ThemeToggle />
             </div>
           </div>
         </div>

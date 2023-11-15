@@ -19,7 +19,10 @@
     "@commitlint/cli": "^18.0.0",
     "@commitlint/config-conventional": "^18.0.0",
     "@next/eslint-plugin-next": "^14.0.2",
+    "@radix-ui/react-toggle-group": "^1.0.4",
+    "lucide-react": "^0.292.0",
     "next": "^14.0.0",
+    "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
