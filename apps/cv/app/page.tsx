@@ -22,7 +22,7 @@ export default function Page() {
       </object>
 
       <div className="flex flex-col items-center justify-center mt-10">
-        <a className="px-4 py-2" download href={'/DukeCV.pdf'}>
+        <a className="px-4 py-2" download href="/DukeCV.pdf">
           Download PDF
         </a>
       </div>

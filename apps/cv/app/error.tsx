@@ -2,10 +2,8 @@
 
 export default function Page({
   error,
-  reset,
 }: {
   error: Error;
-  reset: () => void;
 }) {
-  return 1;
+  return error;
 }

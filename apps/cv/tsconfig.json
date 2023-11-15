@@ -1,5 +1,5 @@
 {
-  "extends": "@duck/tsconfig/nextjs.json",
+  "extends": "tsconfig/nextjs.json",
   "compilerOptions": {
     "plugins": [
       {

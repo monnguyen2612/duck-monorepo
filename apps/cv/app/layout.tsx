@@ -1,6 +1,6 @@
-import React from 'react';
 import './globals.css';
-
+ 
+// eslint-disable-next-line import/no-extraneous-dependencies -- alias purpose
 import { Container, Footer, Head, Header } from '@duck/components';
 
 export const metadata = {
