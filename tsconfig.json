@@ -1,3 +1,10 @@
 {
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@duck/*": ["packages/*"],
+    }
+  },
   "extends": "tsconfig/base.json"
 }
