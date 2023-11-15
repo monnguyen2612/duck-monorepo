@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <div>
       <object
-        className="w-full min-h-[600px] border-0"
+        className="w-full sm:min-h-[500px] md:min-h-[700px] lg:min-h-[1000px] border-0"
         data={cvURL}
         aria-labelledby="cv"
         type="application/pdf">
