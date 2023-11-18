@@ -16,7 +16,6 @@
     "turbo": "latest"
   },
   "name": "duck-monorepo",
-  "packageManager": "npm@9.8.1",
   "workspaces": [
     "apps/*",
     "packages/*"
