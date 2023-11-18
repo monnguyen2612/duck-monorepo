@@ -29,7 +29,7 @@ export default function RootLayout({ children }: LayoutProps) {
         <ThemeProvider>
           <Header longText={metadata.title} />
           <main>
-            <Container className="mb-20 min-h-screen">{children}</Container>
+            <Container className="mb-20">{children}</Container>
           </main>
           <Footer />
         </ThemeProvider>

@@ -11,9 +11,9 @@ export default function Page() {
   return (
     <div>
       <object
+        aria-labelledby="cv"
         className="w-full sm:min-h-[500px] md:min-h-[700px] lg:min-h-[1000px] border-0"
         data={cvURL}
-        aria-labelledby="cv"
         type="application/pdf">
           <a href={cvURL}>DukeCV.pdf</a>
         </object>
