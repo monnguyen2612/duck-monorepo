@@ -1,19 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    // Related path
     '../../apps/**/*.{js,ts,jsx,tsx}',
     '../../packages/**/*.{js,ts,jsx,tsx}',
-    // Path to the tremor module
     '../../node_modules/@tremor/react/**/*.{js,ts,jsx,tsx}',
   ],
-  variants: {
-    extend: {
-      opacity: ['disabled'],
-      typography: ['dark'],
-    },
-    typography: ['dark'],
-  },
+  darkMode: 'class',
   theme: {
     extend: {
       ...require('./tremor.theme.js').theme,
@@ -53,14 +45,6 @@ module.exports = {
         },
       }),
     },
-    hljs: {
-      theme: 'night-owl',
-      custom: {
-        base: {
-          background: 'transparent',
-        },
-      },
-    },
   },
   safelist: [
     {
@@ -69,7 +53,5 @@ module.exports = {
   ],
   plugins: [
     require('@tailwindcss/typography'),
-    require('tailwind-highlightjs'),
   ],
-  darkMode: ['class', 'html[class~="dark"]'],
 }
