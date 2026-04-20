@@ -2,11 +2,11 @@ import './globals.css';
 
 // eslint-disable-next-line import/no-extraneous-dependencies -- alias purpose
 import { Container, Footer, Head, Header, ThemeProvider } from '@duck/components';
-import { Inter } from 'next/font/google';
+import Inter from 'next/font/local';
 
 const inter = Inter({
-  weight: ['100', '200', '300', '400', '700'],
-  subsets: ['latin'],
+  src: './fonts/Inter-Regular.ttf',
+  weight: '400',
   variable: '--font-sans',
   display: 'swap',
 });
