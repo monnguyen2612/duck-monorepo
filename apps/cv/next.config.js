@@ -3,6 +3,7 @@
  */
 
 const nextConfig = {
+  basePath: '/duck-monorepo',
   eslint: {
     ignoreDuringBuilds: true,
   },
