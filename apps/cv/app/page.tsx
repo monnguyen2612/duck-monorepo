@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function Page() {
 
-  const cvURL = `${process.env.NODE_ENV === 'production' ? '/duck-monorepo' : ''}/DukeNg.pdf`;
+  const cvURL = `${process.env.NODE_ENV === 'production' ? '/duck-monorepo' : ''}/DucNg.pdf`;
 
   return (
     <div className="min-h-screen bg-white">
